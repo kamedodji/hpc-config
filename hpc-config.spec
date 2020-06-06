@@ -22,8 +22,9 @@ organizations.
 #%setup -q
 ##|| {
     [ -d %{name}-%{version} ] || {
-		git config --global --unset http.proxy
-		git config --global --unset https.proxy
+		cat /etc/resolv.conf
+		hostname
+		ip a
 		git clone %{url}.git %{name}-%{version}
 	}
     cd %{name}-%{version} # for git
