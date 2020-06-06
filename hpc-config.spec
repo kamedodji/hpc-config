@@ -21,7 +21,11 @@ organizations.
 #[ -f %{_sourcedir}/%{name}-%{version}.tar.gz ] &&
 #%setup -q
 ##|| {
-    [ -d %{name}-%{version} ] || git clone %{url}.git %{name}-%{version}
+    [ -d %{name}-%{version} ] || {
+		git config --global --unset http.proxy
+		git config --global --unset https.proxy
+		git clone %{url}.git %{name}-%{version}
+	}
     cd %{name}-%{version} # for git
 ##}
 
