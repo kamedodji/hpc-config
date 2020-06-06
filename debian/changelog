@@ -1,0 +1,64 @@
+hpc-config (2.0.4-0sci8u2) scibian8; urgency=medium
+
+  * Fix failure of creation of directory /etc/hpc-config
+
+ -- Mouad BAHI <mouad-externe.bahi@edf.fr>  Mon, 13 Jan 2020 19:28:28 +0100
+
+hpc-config (2.0.4-0sci8u1) scibian8; urgency=medium
+
+  * Imported Upstream version 2.0.4
+  * h-c-push: fix "Unknown digest" error in openssl call with -md option
+
+ -- Mouad BAHI <mouad-externe.bahi@edf.fr>  Thu, 19 Dec 2019 16:13:59 +0100
+
+hpc-config (2.0.3-0sci8u2) scibian8; urgency=medium
+
+  * This version import the real upstream using git merge.
+
+ -- MHamed Bouaziz <mhamed-externe.bouaziz@edf.fr>  Tue, 17 Dec 2019 13:42:38 +0100
+
+hpc-config (2.0.3-0sci8u1) scibian8; urgency=medium
+
+  * Imported Upstream release 2.0.3
+  * h-c-push: use key's digest type sha256 for encryption and decryption of files
+
+ -- Mouad BAHI <mouad-externe.bahi@edf.fr>  Mon, 16 Dec 2019 18:13:01 +0100
+
+hpc-config (2.0.1-0sci8u1) scibian8; urgency=medium
+
+  * Imported Upstream version 2.0.1.
+  * Version 2.0.0 doesn't exist beacause it was never imported for scibian/jessie
+
+ -- M'hamed Bouaziz <mhamed-externe.bouaziz@edf.fr>  Thu, 31 Jan 2019 16:07:09 +0100
+
+hpc-config (1.1.8-0sci8u1) scibian8; urgency=medium
+
+  * correct a bug on verbosity > 1 in tty 
+
+ -- Nicolas Meaux <nicolas-externe.meaux@edf.fr>  Thu, 19 Jul 2018 17:25:55 +0200
+
+hpc-config (1.1.7-0sci8u1) scibian8; urgency=medium
+
+  * hpc-config-apply verbose by default when stdout is TTY ( https://github.com/edf-hpc/hpc-config/issues/3 )
+
+ -- Nicolas Meaux <nicolas-externe.meaux@edf.fr>  Thu, 19 Jul 2018 13:44:53 +0200
+
+hpc-config (1.1.6-0sci8u2) scibian8; urgency=medium
+
+  * Update Maintainer to match scibian conventions
+  * Add missing Vcs-* fields in d/control
+
+ -- Rémi Palancher <remi-externe.palancher@edf.fr>  Thu, 18 Jan 2018 11:41:19 +0100
+
+hpc-config (1.1.6-0sci8u1) scibian8; urgency=medium
+
+  * Imported Upstream version 1.1.6
+  * h-c-push: S3: Not removing remote files but update
+
+ -- Thomas Hamel <thomas-externe.hamel@edf.fr>  Tue, 16 Jan 2018 15:11:38 +0100
+
+hpc-config (1.1.5-0sci8u1) scibian8; urgency=medium
+
+  * Initial scibian8 release.
+
+ -- Rémi Palancher <remi-externe.palancher@edf.fr>  Tue, 19 Dec 2017 15:32:12 +0100
