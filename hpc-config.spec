@@ -6,7 +6,7 @@ Version:	2.0.5
 Release:	2%{?dist}
 License:	GPLv2+
 Summary:	Suite of utilities to deploy HPC clusters generic configuration
-URL:		https://github.com/scibian/hpc-config
+URL:		https://github.com/kamedodji/hpc-config
 Source0:	%{name}-%{version}.tar.gz
 BuildRoot:	%(mktemp -ud %{_tmppath}/%{name}-%{version}-%{release}-XXXXXX)
 
